@@ -1,0 +1,17 @@
+---
+title: "BATUA"
+author: "ACRT"
+date: "2022-12-02"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+the_goods <- c("tidyverse", "lme4", "tidymodels")
+lapply(the_goods, require, character.only = TRUE)
+```
+
+## Batua
+```{r data in}
+```
+
